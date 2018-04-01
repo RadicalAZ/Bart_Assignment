@@ -7,7 +7,10 @@ def lambda_handler(event, context):
     """Takes in an event from Api.ai, through Api Gateway.
     Returns a dict with keys "speech", "displayText", and "Source".
     Source is always the "BART API"    """
+    dict() = {"speech" : "BART API", "displayText" : "BART API", "Source" : "BART API"}
+    
     return dict()
+
 
 
 def test_lambda_handler():
