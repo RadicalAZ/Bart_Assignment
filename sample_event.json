@@ -40,11 +40,11 @@
       "messages": [
         {
           # attempting to access the Bart API, not sure how to do so
-          "speech": "the Northbound Train departs the berkeley station at" + BART_API_KEY,
+          "speech": "the Northbound Train departs the Berkeley Station at" + stations(BRK).py,
           "type": 0
         }
       ],
-      "speech": "the Northbound Train departs the berkeley station at" + Bart_API_KEY 
+      "speech": "the northbound train departs the berkeley station at" + stations(BRK).py 
     },
     "actionIncomplete": false,
     "action": "bart_etd",
